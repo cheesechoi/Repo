@@ -13,12 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Process">
-      <UniqueIdentifier>{643fe999-21e2-494c-941e-749a0944e850}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Process">
-      <UniqueIdentifier>{badb1815-c9fe-44a7-ba7f-193e9000d924}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -38,13 +32,5 @@
     <ClCompile Include="Procexp_own.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EnumProcess.cpp">
-      <Filter>Source Files\Process</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="EnumProcess.h">
-      <Filter>Header Files\Process</Filter>
-    </None>
   </ItemGroup>
 </Project>
